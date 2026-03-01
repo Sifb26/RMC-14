@@ -15,12 +15,12 @@
     - MarineDelta
     - MarineEcho
     - MarineFoxtrot
-    - MarineRequisition
+    - MarineIntel
     - MarineJTAC
   - type: RMCHeadset
     radioTextIncrease: 3
   - type: GrantSquadLeaderTracker
-    defaultMode: ProvostTeamLeader
+    defaultMode: ChiefMilitaryPolice
     trackerModes:
     - ProvostMarshal
     - ProvostDeputyMarshal
@@ -30,6 +30,7 @@
     - ProvostAdvisor
     - ChiefMilitaryPolice
     - MilitaryWarden
+    - MilitaryPolice
 
 - type: entity
   parent: RMCHeadsetProvost
@@ -49,3 +50,5 @@
     - ExecutiveOfficer
     - ChiefMilitaryPolice
     - MilitaryWarden
+    - MilitaryPolice
+    
