@@ -39,7 +39,7 @@
   id: MilitaryWarden
   job: CMMilitaryWarden
 
-- type: trackermode
+- type: trackerMode
   id: MilitaryPolice
   job: CMMilitaryPolice
 
