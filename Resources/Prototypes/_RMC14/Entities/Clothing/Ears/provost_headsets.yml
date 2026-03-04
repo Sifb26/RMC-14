@@ -20,24 +20,6 @@
   - type: RMCHeadset
     radioTextIncrease: 3
   - type: GrantSquadLeaderTracker
-    defaultMode: ProvostTeamLeader
-    trackerModes:
-    - ProvostMarshal
-    - ProvostDeputyMarshal
-    - ProvostChiefInspector
-    - ProvostInspector
-    - ProvostTeamLeader
-    - ProvostAdvisor
-    - ChiefMilitaryPolice
-    - MilitaryWarden
-    - MilitaryPolice
-
-- type: entity
-  parent: RMCHeadsetProvost
-  id: RMCHeadsetProvostLead
-  suffix: SL Tracker
-  components:
-  - type: GrantSquadLeaderTracker
     defaultMode: ChiefMilitaryPolice
     trackerModes:
     - ProvostMarshal
@@ -51,3 +33,11 @@
     - ChiefMilitaryPolice
     - MilitaryWarden
     - MilitaryPolice
+
+- type: entity
+  parent: RMCHeadsetProvost
+  id: RMCHeadsetProvostLead
+  suffix: SL Tracker
+  components:
+  - type: GrantSquadLeaderTracker
+    defaultMode: ProvostTeamLeader
