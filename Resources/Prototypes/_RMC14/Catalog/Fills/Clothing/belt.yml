@@ -402,9 +402,8 @@
 
 - type: entity
   parent: RMCBeltHolsterPistol
-  id:  RMCBeltHolsterPistolHandcannonProvostFilled # Provost inspector handcannon
-  name: M276 pattern provost holster rig
-  suffix: Filled, Handcannon
+  id:  RMCBeltHolsterPistolHandcannonProvostFilled
+  suffix: Filled, Provost Handcannon
   components:
   - type: StorageFill
     contents:
