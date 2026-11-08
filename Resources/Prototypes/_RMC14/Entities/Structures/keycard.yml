@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCKeycardDevice
   name: keycard authentication device
-  description: This device is used to trigger station functions, which require multiple swipes of an ID card to authenticate.
+  description: This device is used to trigger station functions, which requires first pressing the red alert button on the device, then swiping or tapping high-level IDs to the scanner.
   placement:
     mode: SnapgridCenter
   components:
